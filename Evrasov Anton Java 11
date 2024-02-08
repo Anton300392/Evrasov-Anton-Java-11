@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите две строки:");
+        String a = scanner.next();
+        String b = scanner.next();
+        if (!a.equals(b)) {
+            System.out.println("Строки неидентичны");
+        } else {
+            System.out.println("Строки идентичны");
+        }
+    }
+}
